@@ -8,7 +8,7 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
   application:
-    name: Service.ALIBABA.OSS
+    name: Service.ALIBABA.OBB
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -28,3 +28,12 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+feign:
+  client:
+    config:
+      default:
+        logger-level: BASIC
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50

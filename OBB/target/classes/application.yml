@@ -8,7 +8,7 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
   application:
-    name: Service.ALIBABA.OSS
+    name: Service.ALIBABA.OBB
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
