@@ -1,0 +1,11 @@
+server:
+  port: 9191
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: ALIYUN
+  application:
+    name: Service.ALIBABA.TRB
+
