@@ -9,6 +9,8 @@
     <modules>
         <module>OCC</module>
         <module>OBB</module>
+        <module>GateWay</module>
+        <module>OBBB</module>
     </modules>
     <name>Alibaba</name>
     <description>Alibaba</description>

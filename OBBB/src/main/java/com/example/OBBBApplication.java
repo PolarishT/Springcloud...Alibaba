@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients
 @EnableDiscoveryClient
-public class OBBApplication {
+@EnableFeignClients
+public class OBBBApplication {
     public static void main(String[] args) {
-        SpringApplication.run(OBBApplication.class,args);
+        SpringApplication.run(OBBBApplication.class,args);
     }
 }

@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="OCC" />
         <module name="OBB" />
+        <module name="GateWay" />
+        <module name="OBBB" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
